@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Thanh điều hướng tự dựng: 4 icon chia đều, canh giữa tuyệt đối -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNav"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_margin="16dp"
+    android:background="@drawable/bg_bottom_nav"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingHorizontal="6dp">
+
+    <FrameLayout
+        android:id="@+id/navCustomer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/icCustomer"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/title_customer"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_nav_customer" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/navService"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/icService"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/title_service"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_nav_service" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/navOrder"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/icOrder"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/title_order"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_nav_order" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/navSearch"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/icSearch"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/title_search"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_nav_search" />
+    </FrameLayout>
+</LinearLayout>
