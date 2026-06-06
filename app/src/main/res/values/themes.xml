@@ -133,14 +133,16 @@
         <item name="itemIconTint">@color/bottom_nav_item</item>
         <item name="itemTextColor">@color/bottom_nav_item</item>
         <item name="labelVisibilityMode">unlabeled</item>
+        <item name="itemGravity">center</item>
+        <item name="itemIconSize">24dp</item>
         <item name="itemActiveIndicatorStyle">@style/Widget.App.BottomNav.Indicator</item>
         <item name="elevation">0dp</item>
     </style>
 
     <style name="Widget.App.BottomNav.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/nav_indicator</item>
-        <item name="android:width">52dp</item>
-        <item name="android:height">36dp</item>
-        <item name="marginHorizontal">4dp</item>
+        <item name="android:width">56dp</item>
+        <item name="android:height">40dp</item>
+        <item name="marginHorizontal">8dp</item>
     </style>
 </resources>

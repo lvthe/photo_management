@@ -20,7 +20,6 @@ import com.example.photo_management.database.DatabaseHelper;
 import com.example.photo_management.models.PrintService;
 import com.example.photo_management.utils.NavBar;
 import com.example.photo_management.utils.ValidationUtils;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.button.MaterialButtonToggleGroup;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -85,8 +84,7 @@ public class ServiceActivity extends AppCompatActivity {
 
         fabAddService.setOnClickListener(v -> showServiceDialog(null));
 
-        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
-        NavBar.setup(this, bottomNav, R.id.nav_service);
+        NavBar.setup(this, R.id.navService);
 
         loadServices();
     }

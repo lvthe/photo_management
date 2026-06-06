@@ -27,7 +27,6 @@ import com.example.photo_management.models.PrintOrder;
 import com.example.photo_management.models.PrintService;
 import com.example.photo_management.utils.NavBar;
 import com.example.photo_management.utils.ValidationUtils;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.datepicker.MaterialDatePicker;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -97,8 +96,7 @@ public class OrderActivity extends AppCompatActivity {
             showOrderDialog(null);
         });
 
-        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
-        NavBar.setup(this, bottomNav, R.id.nav_order);
+        NavBar.setup(this, R.id.navOrder);
 
         loadOrders();
     }

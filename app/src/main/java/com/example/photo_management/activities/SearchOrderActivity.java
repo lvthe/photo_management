@@ -16,7 +16,6 @@ import com.example.photo_management.models.Customer;
 import com.example.photo_management.models.OrderDetail;
 import com.example.photo_management.utils.NavBar;
 import com.example.photo_management.utils.ValidationUtils;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.textfield.MaterialAutoCompleteTextView;
@@ -63,8 +62,7 @@ public class SearchOrderActivity extends AppCompatActivity {
         adapter = new OrderAdapter(this, orderList, null, false);
         rvSearchOrders.setAdapter(adapter);
 
-        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
-        NavBar.setup(this, bottomNav, R.id.nav_search);
+        NavBar.setup(this, R.id.navSearch);
 
         setupCustomerDropdown();
 

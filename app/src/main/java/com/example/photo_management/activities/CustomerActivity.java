@@ -19,7 +19,6 @@ import com.example.photo_management.adapters.CustomerAdapter;
 import com.example.photo_management.database.DatabaseHelper;
 import com.example.photo_management.models.Customer;
 import com.example.photo_management.utils.NavBar;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -78,8 +77,7 @@ public class CustomerActivity extends AppCompatActivity {
         rvCustomers.setAdapter(adapter);
         fabAddCustomer.setOnClickListener(v -> showCustomerDialog(null));
 
-        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
-        NavBar.setup(this, bottomNav, R.id.nav_customer);
+        NavBar.setup(this, R.id.navCustomer);
 
         loadCustomers();
     }
