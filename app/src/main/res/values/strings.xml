@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Photo-Management</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Quản lý In ấn</string>
+    <string name="dashboard_subtitle">Khách hàng · Dịch vụ · Đơn in</string>
+    <string name="section_features">Chức năng</string>
+    <string name="menu_customer">Quản lý khách hàng</string>
+    <string name="menu_service">Quản lý dịch vụ in</string>
+    <string name="menu_order">Quản lý đơn in</string>
+    <string name="menu_order_by_customer">Đơn theo khách hàng</string>
+    <string name="menu_search">Tìm kiếm đơn in</string>
+
+    <!-- Nhãn ngắn cho lưới dashboard -->
+    <string name="grid_customer">Khách hàng</string>
+    <string name="grid_service">Dịch vụ in</string>
+    <string name="grid_order">Đơn in</string>
+    <string name="grid_search">Tìm kiếm</string>
+    <string name="grid_customer_desc">Quản lý hồ sơ khách</string>
+    <string name="grid_service_desc">Bảng giá in ấn</string>
+    <string name="grid_order_desc">Tạo &amp; quản lý đơn</string>
+    <string name="grid_search_desc">Lọc đơn theo điều kiện</string>
+
+    <!-- Tiêu đề màn hình -->
+    <string name="title_customer">Quản lý khách hàng</string>
+    <string name="title_service">Quản lý dịch vụ in</string>
+    <string name="title_order">Quản lý đơn in</string>
+    <string name="title_order_by_customer">Đơn theo khách hàng</string>
+    <string name="title_search">Tìm kiếm đơn in</string>
+
+    <!-- Hành động -->
+    <string name="action_add_customer">Thêm khách hàng</string>
+    <string name="action_add_service">Thêm dịch vụ</string>
+    <string name="action_add_order">Thêm đơn in</string>
+    <string name="action_view_orders">Xem đơn</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_edit">Sửa</string>
+    <string name="action_delete">Xóa</string>
+
+    <!-- Nhãn trường nhập -->
+    <string name="label_customer_code">Mã khách hàng</string>
+    <string name="label_customer_name">Tên khách hàng</string>
+    <string name="label_phone">Số điện thoại</string>
+    <string name="label_service_code">Mã dịch vụ</string>
+    <string name="label_print_type">Loại in</string>
+    <string name="label_size">Kích thước</string>
+    <string name="label_price_per_m2">Giá / m²</string>
+    <string name="label_order_code">Mã đơn in</string>
+    <string name="label_customer">Khách hàng</string>
+    <string name="label_service">Dịch vụ in</string>
+    <string name="label_area">Diện tích (m²)</string>
+    <string name="label_quantity">Số lượng</string>
+    <string name="label_total_price">Thành tiền</string>
+    <string name="label_order_date">Ngày đặt</string>
+    <string name="label_note">Ghi chú</string>
+
+    <string name="hint_select_customer">Chọn khách hàng để xem đơn</string>
+
+    <!-- Thống kê tổng quan -->
+    <string name="stat_orders">Số đơn</string>
+    <string name="stat_spending">Tổng chi tiêu</string>
+    <string name="stat_revenue">Tổng doanh thu</string>
+    <string name="stat_area">Tổng diện tích</string>
+
+    <!-- Trạng thái rỗng -->
+    <string name="empty_pick_customer">Chọn một khách hàng để xem lịch sử đơn in</string>
+    <string name="empty_no_orders">Khách hàng này chưa có đơn in nào</string>
+    <string name="empty_no_match">Không có đơn nào khớp bộ lọc</string>
+    <string name="empty_no_customer">Chưa có khách hàng. Hãy thêm khách hàng trước.</string>
+    <string name="empty_list_customer">Chưa có khách hàng nào.\nNhấn nút + để thêm mới.</string>
+    <string name="empty_list_service">Chưa có dịch vụ in nào.\nNhấn nút + để thêm mới.</string>
+    <string name="empty_list_order">Chưa có đơn in nào.\nNhấn nút + để tạo đơn.</string>
+
+    <!-- Bộ lọc tìm kiếm -->
+    <string name="filter_title">Bộ lọc</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_label_customer">Khách hàng</string>
+    <string name="filter_all_customers">Tất cả khách hàng</string>
+    <string name="filter_label_size">Khổ giấy</string>
+    <string name="filter_label_type">Loại in</string>
+    <string name="filter_label_price">Thành tiền tối thiểu</string>
+    <string name="filter_type_color">Màu</string>
+    <string name="filter_type_bw">Đen trắng</string>
+    <string name="filter_price_100k">&gt; 100k</string>
+    <string name="filter_price_500k">&gt; 500k</string>
+    <string name="filter_price_1m">&gt; 1 triệu</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Legacy (giữ lại để tương thích) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ============ Material 3 color tokens — LIGHT (tím vivid kiểu Nakafit) ============ -->
+    <color name="md_primary">#7C3AED</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#EADDFF</color>
+    <color name="md_on_primary_container">#25005A</color>
+
+    <color name="md_secondary">#635B70</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#E9DEF8</color>
+    <color name="md_on_secondary_container">#1E192B</color>
+
+    <color name="md_tertiary">#00696D</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#6FF7FC</color>
+    <color name="md_on_tertiary_container">#002021</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+
+    <color name="md_background">#FCFAFF</color>
+    <color name="md_on_background">#1C1B1F</color>
+    <color name="md_surface">#FCFAFF</color>
+    <color name="md_on_surface">#1C1B1F</color>
+    <color name="md_surface_variant">#E7E0EB</color>
+    <color name="md_on_surface_variant">#49454E</color>
+    <color name="md_surface_container">#F3EDF7</color>
+
+    <color name="md_outline">#7A757F</color>
+    <color name="md_outline_variant">#CAC4CF</color>
+
+    <!-- Màu nhấn cho "Thành tiền" -->
+    <color name="md_price">#1B6C2F</color>
+    <!-- Nền ô nhập / spinner -->
+    <color name="md_field_bg">#F5EFFA</color>
+
+    <!-- ============ Bottom navigation (pill đen nổi — giống mẫu, cả 2 chế độ) ============ -->
+    <color name="nav_bar_bg">#1C1B1F</color>
+    <color name="nav_item_active">#FFFFFF</color>
+    <color name="nav_item_inactive">#C9C5D0</color>
+    <color name="nav_indicator">#7C3AED</color>
+</resources>

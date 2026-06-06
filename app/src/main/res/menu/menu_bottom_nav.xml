@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_customer"
+        android:icon="@drawable/ic_nav_customer"
+        android:title="@string/title_customer" />
+    <item
+        android:id="@+id/nav_service"
+        android:icon="@drawable/ic_nav_service"
+        android:title="@string/title_service" />
+    <item
+        android:id="@+id/nav_order"
+        android:icon="@drawable/ic_nav_order"
+        android:title="@string/title_order" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_nav_search"
+        android:title="@string/title_search" />
+</menu>

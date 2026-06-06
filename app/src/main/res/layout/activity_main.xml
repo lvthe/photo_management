@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Hero header -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/colorPrimary"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="24dp">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/bg_hero_icon"
+                    android:contentDescription="@string/app_name"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_photo_camera"
+                    app:tint="?attr/colorOnPrimary" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_title"
+                        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:alpha="0.85"
+                        android:text="@string/dashboard_subtitle"
+                        android:textAppearance="?attr/textAppearanceBodyMedium"
+                        android:textColor="?attr/colorOnPrimary" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/section_features"
+            android:textAppearance="?attr/textAppearanceTitleSmall"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <!-- Hàng 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnCustomer"
+                style="@style/Widget.App.GridItem"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    style="@style/Widget.App.GridCard.Icon"
+                    android:src="@drawable/ic_group" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Title"
+                    android:text="@string/grid_customer" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Desc"
+                    android:text="@string/grid_customer_desc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnService"
+                style="@style/Widget.App.GridItem"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    style="@style/Widget.App.GridCard.Icon"
+                    android:src="@drawable/ic_print" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Title"
+                    android:text="@string/grid_service" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Desc"
+                    android:text="@string/grid_service_desc" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Hàng 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnOrder"
+                style="@style/Widget.App.GridItem"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    style="@style/Widget.App.GridCard.Icon"
+                    android:src="@drawable/ic_receipt" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Title"
+                    android:text="@string/grid_order" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Desc"
+                    android:text="@string/grid_order_desc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnSearch"
+                style="@style/Widget.App.GridItem"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    style="@style/Widget.App.GridCard.Icon"
+                    android:src="@drawable/ic_search" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Title"
+                    android:text="@string/grid_search" />
+
+                <TextView
+                    style="@style/Widget.App.GridCard.Desc"
+                    android:text="@string/grid_search_desc" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
