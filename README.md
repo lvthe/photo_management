@@ -27,6 +27,18 @@ Quản lý Khách hàng · Dịch vụ in · Đơn in · Tìm kiếm & thống k
 
 Giao diện theo chuẩn **Material Design 3**, hỗ trợ **Dark Mode**.
 
+## 📱 Ảnh màn hình
+
+> Thả ảnh chụp vào thư mục `docs/screenshots/` đúng tên file bên dưới là ảnh tự hiện.
+
+| Trang chủ | Đơn in | Tìm kiếm / Lọc |
+|:---:|:---:|:---:|
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Đơn in](docs/screenshots/order.png) | ![Tìm kiếm](docs/screenshots/search.png) |
+
+| Khách hàng | Dịch vụ in | Dark Mode |
+|:---:|:---:|:---:|
+| ![Khách hàng](docs/screenshots/customer.png) | ![Dịch vụ](docs/screenshots/service.png) | ![Dark Mode](docs/screenshots/dark_mode.png) |
+
 ## ✨ Tính năng
 
 | Nhóm | Chi tiết |
